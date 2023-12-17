@@ -1,12 +1,14 @@
+package ThePen;
+
 public class Pen {
 
 
     public void draw (Rectangle rec){
 
         System.out.println("Rectangle width "+ rec.getWidth()+"\n" +
-                           "Rectangle height "+ rec.getHeight()+"\n" +
-                           "Rectangle color "+ rec.getColor()+"\n" +
-                           "Rectangle is  drawed"
+                "Rectangle height "+ rec.getHeight()+"\n" +
+                "Rectangle color "+ rec.getColor()+"\n" +
+                "Rectangle is  drawed"
 
         );
 

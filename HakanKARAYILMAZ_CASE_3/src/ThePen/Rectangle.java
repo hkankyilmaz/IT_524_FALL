@@ -1,3 +1,5 @@
+package ThePen;
+
 public class Rectangle {
 
     private double  width;
