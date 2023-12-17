@@ -31,6 +31,7 @@ public class Program {
         System.out.println("---");
         System.out.println(flight1.getPilot()[0].displayPilotInformation());
         System.out.println("---");
+        System.out.println(flight1.getPlane().displayPlaneInformation());
         System.out.println(flight1.getPilot()[1].displayPilotInformation());
 
 

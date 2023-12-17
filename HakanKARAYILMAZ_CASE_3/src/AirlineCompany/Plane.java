@@ -27,13 +27,12 @@ public class Plane {
 
 
     String displayPlaneInformation(){
-        return "Plane{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
-                ", capacity=" + capacity +
-                ", range=" + range +
-                ", type='" + type + '\'' +
-                '}';
+        return "Plane" + '\n' +
+                "id=" + id + '\n' +
+                "name=" + name + '\n' +
+                "capacity=" + capacity + '\n' +
+                "range=" + range + '\n' +
+                "type=" + type + '\n' ;
     }
 
 
