@@ -13,6 +13,7 @@ public class ChampionsLeague {
 
         for (int i = 0; i < teams.length; i++) {
 
+
             for (int j = i+1; j < teams.length; j++) {
 
                 System.out.println(teams[i] + "--" +teams[j]);
