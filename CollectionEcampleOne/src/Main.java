@@ -1,5 +1,7 @@
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.HashSet;
+import java.util.TreeSet;
 
 // Press Shift twice to open the Search Everywhere dialog and type `show whitespaces`,
 // then press Enter. You can now see whitespace characters in your code.
@@ -8,16 +10,13 @@ public class Main {
     public static void main(String[] args) {
 
 
+        Product<String, String> pc = new ProductPc(1, "pc", new ArrayList<>(), new TreeSet<>(), "i7", "16gb", "1tb");
+        Product<String, String> airFryer = new ProductAirFryer(2, "air fryer", new ArrayList<>(), new HashSet<>(), 2, true);
 
 
-        Product<String,String> pc = new ProductPc(1,"pc", new ArrayList<>(),new HashSet<>(),"i7","16gb","1tb");
-        Product<String,String> airFryer = new ProductAirFryer(2,"air fryer",new ArrayList<>(),new HashSet<>(),2,true);
-
-
-
-        pc.getLogs().add("pc is created");
-        pc.getLogs().add("pc is updated");
-        pc.getLogs().add("pc is deleted");
+        pc.getLogs().add("b");
+        pc.getLogs().add("b");
+        pc.getLogs().add("a");
 
 
         pc.getWhoIsBuyed().add("ali");
@@ -29,25 +28,8 @@ public class Main {
         ((ProductPc) pc).print();
 
 
-
-
         System.out.println("finished");
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        System.out.println(pc.getWhoIsBuyed());
 
 
     }
