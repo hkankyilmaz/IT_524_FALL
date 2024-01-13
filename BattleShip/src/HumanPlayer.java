@@ -22,12 +22,13 @@ public class HumanPlayer extends Player {
 
     @Override
     public String toString() {
-        return "HumanPlayer Information \n" + "Name: " + name + " Ship: " + ship + " Coordinate of Ship: " + Arrays.toString(coordinateOfShip);
+
+        return super.toString();
     }
 
     @Override
     public boolean equals(Object o) {
-        if (!(o instanceof HumanPlayer humanPlayer)) return false;
-        return Objects.equals(name, humanPlayer.name) && ship == humanPlayer.ship && Arrays.equals(coordinateOfShip, humanPlayer.coordinateOfShip);
+
+        return super.equals(o);
     }
 }

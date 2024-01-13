@@ -25,12 +25,13 @@ public class ComputerPlayer extends Player {
 
     @Override
     public String toString() {
-        return "ComputerPlayer Information \n" + "Name: " + name + " Ship: " + ship + " Coordinate of Ship: " + Arrays.toString(coordinateOfShip);
+
+        return  super.toString();
     }
 
     @Override
     public boolean equals(Object o) {
-        if (!(o instanceof ComputerPlayer computerPlayer)) return false;
-        return Objects.equals(name, computerPlayer.name) && ship == computerPlayer.ship && Arrays.equals(coordinateOfShip, computerPlayer.coordinateOfShip);
+
+        return super.equals(o);
     }
 }

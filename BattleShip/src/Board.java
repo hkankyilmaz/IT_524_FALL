@@ -4,9 +4,9 @@ import java.util.Objects;
 public class Board {
 
 
-    Player playerOne;
-    Player playerTwo;
-    int[] sizeOfBoard = new int[2];
+    private Player playerOne;
+    private Player playerTwo;
+    private int[] sizeOfBoard = new int[2];
 
 
     public Board(Player playerOne, Player playerTwo, int[] sizeOfBoard) {

@@ -3,7 +3,7 @@ import java.util.Objects;
 public class Game {
 
 
-    Board board;
+    private Board board;
 
 
     void play() {

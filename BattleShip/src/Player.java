@@ -4,10 +4,10 @@ import java.util.Objects;
 public abstract class Player {
 
 
-    String name;
-    KindOfShip ship;
-    int[] coordinateOfShip = new int[2];
-    int[] coordinateOfBoard = new int[2];
+    private String name;
+    private KindOfShip ship;
+    private int[] coordinateOfShip = new int[2];
+    private int[] coordinateOfBoard = new int[2];
 
     public Player(String name, KindOfShip ship, int[] coordinateOfShip, int[] coordinateOfBoard) {
         if (checkValidCoordinateOfShip(coordinateOfBoard)){
