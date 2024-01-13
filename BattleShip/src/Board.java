@@ -9,7 +9,7 @@ public class Board {
     public Board(Player playerOne, Player playerTwo, int[] sizeOfBoard) {
         this.playerOne = playerOne;
         this.playerTwo = playerTwo;
-        if (checkBoard(this.sizeOfBoard)) {
+        if (checkBoardCoordinate(this.sizeOfBoard)) {
             this.sizeOfBoard = sizeOfBoard;
         } else {
             System.out.println("Invalid size of board");
@@ -19,12 +19,24 @@ public class Board {
 
 
     void checkAttack() {
-        // Check if the attack is valid
+        // Check if the attack is valid (inside the board)
         // Check if the attack is a hit or miss
+
+        checkIsGameOver();
+        // if game is not over update the coordinateOfShip attribute of the Player objects and pass the turn to the other player
+        //else print the winner
+
+
+    }
+
+    void checkIsGameOver() {
+        // Check if the game is over
+        // If is over return true
+        // If is not over return false
     }
 
 
-    boolean checkBoard(int[] sizeOfBoard) {
+    boolean checkBoardCoordinate(int[] sizeOfBoard) {
         // Check if the board is valid
         // If is valid return true
         // If is not valid return false
