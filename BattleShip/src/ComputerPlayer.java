@@ -4,8 +4,8 @@ import java.util.Objects;
 public class ComputerPlayer extends Player {
 
 
-    public ComputerPlayer(String name, KindOfShip ship, int[] coordinateOfShip) {
-        super(name, ship, coordinateOfShip);
+    public ComputerPlayer(String name, KindOfShip ship, int[] coordinateOfShip, int[] coordinateOfBoard) {
+        super(name, ship, coordinateOfShip, coordinateOfBoard);
     }
 
     @Override

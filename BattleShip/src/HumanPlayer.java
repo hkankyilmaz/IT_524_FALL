@@ -3,8 +3,8 @@ import java.util.Objects;
 
 public class HumanPlayer extends Player {
 
-    public HumanPlayer(String name, KindOfShip ship, int[] coordinateOfShip) {
-        super(name, ship, coordinateOfShip);
+    public HumanPlayer(String name, KindOfShip ship, int[] coordinateOfShip, int[] coordinateOfBoard) {
+        super(name, ship, coordinateOfShip, coordinateOfBoard);
     }
 
     @Override
