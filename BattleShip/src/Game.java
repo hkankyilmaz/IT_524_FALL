@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 public class Game {
 
 
@@ -22,5 +24,16 @@ public class Game {
 
     public void setBoard(Board board) {
         this.board = board;
+    }
+
+    @Override
+    public String toString() {
+        return "Game Information \n" + "Board: " + board;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (!(obj instanceof Game game)) return false;
+        return Objects.equals(board, game.board);
     }
 }

@@ -1,3 +1,6 @@
+import java.util.Arrays;
+import java.util.Objects;
+
 public class Board {
 
 
@@ -66,5 +69,17 @@ public class Board {
 
     public void setSizeOfBoard(int[] sizeOfBoard) {
         this.sizeOfBoard = sizeOfBoard;
+    }
+
+
+    @Override
+    public String toString() {
+        return "Board Information \n" + "Player One: " + playerOne + " Player Two: " + playerTwo + " Size of Board: " + Arrays.toString(sizeOfBoard);
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (!(obj instanceof Board board)) return false;
+        return Objects.equals(playerOne, board.playerOne) && Objects.equals(playerTwo, board.playerTwo) && Arrays.equals(sizeOfBoard, board.sizeOfBoard);
     }
 }
