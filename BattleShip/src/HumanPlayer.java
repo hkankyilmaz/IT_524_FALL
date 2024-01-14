@@ -18,6 +18,8 @@ public class HumanPlayer extends Player {
     void updateCoordinateOfShip() {
 
         // Update the coordinateOfShip attribute of the HumanPlayer object
+        // when the enemy hits the ship
+
     }
 
     @Override

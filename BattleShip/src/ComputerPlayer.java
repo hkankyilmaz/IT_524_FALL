@@ -20,6 +20,7 @@ public class ComputerPlayer extends Player {
     void updateCoordinateOfShip() {
 
         // Update the coordinateOfShip attribute of the ComputerPlayer object
+        // when the enemy hits the ship
     }
 
 

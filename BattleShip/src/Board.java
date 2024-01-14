@@ -32,7 +32,7 @@ public class Board {
 
     }
 
-    void checkIsGameOver() {
+   private void checkIsGameOver() {
         // Check if the game is over
         // If is over return true
         // If is not over return false

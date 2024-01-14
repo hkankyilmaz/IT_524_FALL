@@ -20,7 +20,7 @@ public abstract class Player {
         this.coordinateOfShip = coordinateOfShip;
     }
 
-    boolean checkValidCoordinateOfShip(int[] coordinateOfBoard) {
+    private boolean checkValidCoordinateOfShip(int[] coordinateOfBoard) {
         // Check if the coordinate of the ship is valid
         // If is valid return true
         // If is not valid return false
