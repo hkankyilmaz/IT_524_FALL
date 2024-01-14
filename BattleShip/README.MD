@@ -1,6 +1,10 @@
 # BattleShip
 
-## Description
+This project doen't have full code for the game. <br>
+Main purpose of this project is creating the hierarchy and relations of the classes. <br>
+Many times methods are explained with comments. <br>
+
+## Game Rules <br>
 
 🔸 This is a simple game of battleship. <br>
 🔸 The game is played onn n*n grid that is defined by the user. <br>
@@ -14,4 +18,5 @@
 
 ## UML DIAGRAM <br>
 
-<img src="./src/screenshot/fmetal.png">
+<img src="./asset/Page1.jpg">
+<img src="./asset/Page2.jpg">
