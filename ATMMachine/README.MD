@@ -1,4 +1,4 @@
-# BattleShip
+# Atm Machine
 
 This is java app based on console. <br>
 
