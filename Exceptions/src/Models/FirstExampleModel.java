@@ -42,6 +42,8 @@ public class FirstExampleModel {
                 System.out.println("Please dont enter the 0");
 
 
+            }finally {
+                System.out.println("Finally is executed always");
             }
 
         } while (contiuneLoop);
