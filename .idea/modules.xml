@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ATMMachine/ATMMachine.iml" filepath="$PROJECT_DIR$/ATMMachine/ATMMachine.iml" />
       <module fileurl="file://$PROJECT_DIR$/BattleShip/BattleShip.iml" filepath="$PROJECT_DIR$/BattleShip/BattleShip.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CodeWars/CodeWars.iml" filepath="$PROJECT_DIR$/CodeWars/CodeWars.iml" />
       <module fileurl="file://$PROJECT_DIR$/CollectionEcampleOne/CollectionEcampleOne.iml" filepath="$PROJECT_DIR$/CollectionEcampleOne/CollectionEcampleOne.iml" />
       <module fileurl="file://$PROJECT_DIR$/Collections/Collections.iml" filepath="$PROJECT_DIR$/Collections/Collections.iml" />
       <module fileurl="file://$PROJECT_DIR$/DataStore/DataStore.iml" filepath="$PROJECT_DIR$/DataStore/DataStore.iml" />

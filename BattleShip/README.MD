@@ -1,7 +1,7 @@
 # BattleShip
 
 This project doen't have full code for the game. <br>
-Main purpose of this project is creating the hierarchy and relations of the classes. <br>
+CreatePhoneNumber purpose of this project is creating the hierarchy and relations of the classes. <br>
 Many times methods are explained with comments. <br>
 
 ## Game Rules <br>
